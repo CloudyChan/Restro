@@ -24,6 +24,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body {
+    vertical-align: middle;
+}
+
 section{
     padding:2rem 9%;
 }
@@ -45,6 +49,23 @@ section:nth-child(even){
     font-size: 3rem;
     padding-bottom: 2rem;
     text-transform: uppercase;
+}
+
+.headingU{
+    text-align: center;
+    color:var(--black);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.headingU:hover{
+    text-align: center;
+    color:var(--black);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .btn{
@@ -582,6 +603,12 @@ header .icons #menu-bars{
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .loader-container img{
